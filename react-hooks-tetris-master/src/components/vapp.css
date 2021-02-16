@@ -1,0 +1,94 @@
+.center{
+    text-align: center;
+}
+
+input.gamer{
+    background: transparent;
+    border: transparent!important;
+    color: white;
+    font-size: large;
+    font-family: fantasy;
+}
+
+input.gamer:focus{
+    border-width: 0px!important;
+    outline: none;
+}
+
+.error{
+    color: red!important;
+}
+
+th, td {
+    color: white;
+}
+
+
+.max-w{
+    max-width: 250px;
+}
+
+.table{
+    position: absolute;
+}
+
+.vh100{
+    height: 100vh !important
+}
+
+.vapp-btn{
+    box-sizing: border-box;
+
+    margin: 0 0 20px 0;
+    padding: 20px;
+    min-height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: #333;
+    font-family: Pixel, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.p-0{
+    padding: 0!important;
+}
+
+.nextTetrominos{
+    width: 100%!important;
+    height: 50px!important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.I{
+    background-image: url("./styles/I.PNG");
+}
+
+.J{
+    background-image: url("./styles/J.PNG");
+}
+
+.L{
+    background-image: url("./styles/L.PNG");
+}
+
+.O{
+    background-image: url("./styles/O.PNG");
+}
+
+.S{
+    background-image: url("./styles/S.PNG");
+}
+
+.T{
+    background-image: url("./styles/T.PNG");
+}
+
+.Z{
+    background-image: url("./styles/Z.PNG");
+}
